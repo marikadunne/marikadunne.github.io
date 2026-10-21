@@ -14,7 +14,7 @@
   --lb-meta-case: none;
   --lb-meta-track: 0;
   position: fixed;
-  inset: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
   z-index: 1000;
   background: var(--lb-bg);
   color: var(--lb-fg);
@@ -30,7 +30,7 @@ html.lb-lock, html.lb-lock body { overflow: hidden; }
 .lb-stage {
   margin: 0;
   position: absolute;
-  inset: 0;
+  top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
