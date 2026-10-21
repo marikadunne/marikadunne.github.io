@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="shared/lightbox.css">
+<link rel="stylesheet" href="shared/lightbox.css?v=20261020212127">
 <style>
   :root {
     /* Dark mode (default): Design A on a black background */
@@ -392,8 +392,9 @@
   <footer>&copy; <span data-fill="year"></span> Marika Dunne &middot; All rights reserved<span data-optional> &middot; <a data-fill="ig-link" href="#">Instagram</a></span></footer>
 
 <script>window.MD_BASE = ".";</script>
-<script src="shared/content.js"></script>
-<script src="shared/site.js"></script>
+<!-- ?v= changes on every publish (publish.sh) so browsers load the new files right away -->
+<script src="shared/content.js?v=20261020212127"></script>
+<script src="shared/site.js?v=20261020212127"></script>
 <script>
   // Recent Work opens with the featured piece (SITE.featured in content.js, Blank
   // Spaces); everything else keeps its date order. Moving it in the list itself

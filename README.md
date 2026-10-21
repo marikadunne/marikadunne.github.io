@@ -14,6 +14,8 @@ You don't need to edit any code. Open this folder in Claude Code and describe wh
 
 Then ask Claude to publish it. Changes show up on the site within a minute or two.
 
+To publish, run `./publish.sh "What changed"` from this folder. It stamps a new version on the page's files so visitors see the update straight away (a plain reload is enough), then uploads it.
+
 ## What's where
 
 | What | Where |
