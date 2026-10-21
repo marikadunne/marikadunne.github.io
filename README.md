@@ -1,6 +1,6 @@
 # Marika Dunne — website
 
-This folder is Marika's website. It's live at **https://marikadunne.github.io**.
+This folder is Marika's website. It's live at **https://marikadunne.com** (the old address, marikadunne.github.io, forwards there).
 
 ## Making changes
 
