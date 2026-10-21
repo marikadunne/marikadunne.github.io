@@ -16,6 +16,12 @@ Then ask Claude to publish it. Changes show up on the site within a minute or tw
 
 To publish, run `./publish.sh "What changed"` from this folder. It stamps a new version on the page's files so visitors see the update straight away (a plain reload is enough), then uploads it.
 
+## Adding or replacing a picture
+
+Run `tools/prepare-image.sh <original photo> <short-name>`. It makes the web copies (sized, photo data removed, and the same color boost as every other piece) and prints the `w`, `h` and `tone` to use in the piece's row in `shared/content.js`. The original photo is not changed.
+
+If you re-make pictures that are already on the site (for example, a better photo of the same piece), also raise `imageVersion` in `shared/content.js` by 1, so visitors' browsers load the new copies right away.
+
 ## What's where
 
 | What | Where |
@@ -31,6 +37,6 @@ The order of `WORKS` is the order on the site, newest first. The piece shown fir
 
 ## Good to know
 
-- Images here are web-sized copies (about 1920 px). The original files stay on your own computer.
+- Images here are web-sized copies (about 1920 px) with a gentle color boost (+15% color intensity, brightness unchanged). The original files stay on your own computer, untouched; to undo the boost, re-make the copies from the originals without it.
 - Visitors can switch between night (black) and day (white) with the button in the top corner. Night is the default.
 - © Marika Dunne. All artwork and text belong to Marika Dunne. All rights reserved.

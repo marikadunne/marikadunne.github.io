@@ -18,7 +18,8 @@
       const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${work.w}" height="${work.h}" viewBox="0 0 ${work.w} ${work.h}"><rect width="100%" height="100%" fill="${work.tone}"/><text x="50%" y="50%" fill="rgba(0,0,0,.35)" font-family="sans-serif" font-size="${work.w / 14}" text-anchor="middle" dominant-baseline="middle">${esc(work.title)}</text></svg>`;
       return "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg);
     }
-    return `${BASE}/images/${size}/${work.file}.jpg`;
+    const v = window.SITE && window.SITE.imageVersion ? `?v=${window.SITE.imageVersion}` : "";
+    return `${BASE}/images/${size}/${work.file}.jpg${v}`;
   }
 
   function img(work, size = "full", cls = "") {
