@@ -1,0 +1,20 @@
+# Marika Dunne: marikadunne.github.io
+# Search engines are welcome. AI companies: please don't use this site's
+# artwork or text to train your models.
+
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: anthropic-ai
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: CCBot
+User-agent: Bytespider
+User-agent: meta-externalagent
+User-agent: cohere-ai
+User-agent: Diffbot
+User-agent: ImagesiftBot
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: *
+Allow: /
