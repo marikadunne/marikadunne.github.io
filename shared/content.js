@@ -11,7 +11,7 @@ window.SITE = {
   location: "Oxford, Mississippi",
   email: "mikadunne98@gmail.com",
   instagram: "marikadunneart", // handle without the @; leave empty to hide everywhere
-  cvPdf: "shared/marika-dunne-cv.pdf?v=20261020212127", // ?v= changes on every publish (publish.sh)
+  cvPdf: "shared/marika-dunne-cv.pdf?v=20261020213229", // ?v= changes on every publish (publish.sh)
   featured: "blankcanvas",                // piece shown large on the opening screen
   headshot: "images/marika-headshot.jpg", // black & white portrait, 1000 x 1488
   logo: "images/logo-ink.png",            // round seal, dark ink on transparent
@@ -38,17 +38,16 @@ window.MEDIA = [
 
 // Every piece, newest first, in the order shown on the site. collection says
 // whether it appears under Recent Work or Past Work.
-// Titles, media and sizes come from Marika's Adobe Portfolio captions. Pieces
-// marked "working title" still need their real title, medium and size.
+// Titles, media and sizes come from Marika.
 // file = image name in images/full and images/thumb (without .jpg)
 // w, h = image pixel size (keeps the layout steady while images load)
 // tone = average color of the image (used as a soft placeholder while loading)
 window.WORKS = [
   // ---- Recent Work ----
   { file: "blue",               collection: "recent", medium: "painting",    title: "Inner Immersion",           details: "Oil paint and cyanotype on canvas", size: '18x24"', year: "2026", w: 1553, h: 1920, tone: "#7C858E" },
-  { file: "clothstrips",        collection: "recent", medium: "painting",    title: "What Peeks",                details: "", size: "", year: "", w: 1440, h: 1920, tone: "#B6B3A9" }, // working title
-  { file: "ripples",            collection: "recent", medium: "painting",    title: "Moments of Impact",         details: "", size: "", year: "", w: 1466, h: 1920, tone: "#9E897C" }, // working title
-  { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flashbacks",                details: "", size: "", year: "", w: 1406, h: 1920, tone: "#958366" }, // working title (Yaya drawing made of many photos)
+  { file: "clothstrips",        collection: "recent", medium: "painting",    title: "What Peeks Through",        details: "Oil paint and cyanotype on canvas", size: '13x24"', year: "", w: 1440, h: 1920, tone: "#B6B3A9" },
+  { file: "ripples",            collection: "recent", medium: "painting",    title: "Ripples of Impact",         details: "Oil paint on canvas", size: '11x14"', year: "", w: 1466, h: 1920, tone: "#9E897C" },
+  { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flashes of You",            details: "Black Pan Pastel on kraft paper", size: '22x30"', year: "2025", w: 1406, h: 1920, tone: "#958366" },
   { file: "house",              collection: "recent", medium: "painting",    title: "Faulkner\u2019s Farm",       details: "Oil paint on canvas",           size: '5x7"',   year: "", w: 1920, h: 1364, tone: "#9F9983" },
   { file: "blankcanvas",        collection: "recent", medium: "painting",    title: "Blank Spaces",              details: "Oil paint on wood panel",       size: '20x20"', year: "", w: 1884, h: 1920, tone: "#828383" },
   { file: "water",              collection: "recent", medium: "printmaking", title: "Untitled II",               details: "Stone Lithography",             size: '11x14"', year: "", w: 1518, h: 1920, tone: "#C4C2C0" },
@@ -57,8 +56,8 @@ window.WORKS = [
   { file: "garbage",            collection: "recent", medium: "painting",    title: "Trash Painting II",         details: "Acrylic paint on plastic bags", size: '8x10"',  year: "", w: 1920, h: 1618, tone: "#7D96A3" },
   { file: "phonecall",          collection: "recent", medium: "painting",    title: "Esca",                      details: "Oil paint on canvas",           size: '18x24"', year: "", w: 1920, h: 1432, tone: "#584F3F" },
   { file: "phoneaddiction",     collection: "recent", medium: "painting",    title: "Daughter of Eve",           details: "Oil paint on canvas",           size: '18x24"', year: "", w: 1443, h: 1920, tone: "#95897C" },
-  { file: "screentime",         collection: "recent", medium: "painting",    title: "Screen Time",               details: "", size: "", year: "", w: 1920, h: 1912, tone: "#6C5F40" }, // working title
-  { file: "bus",                collection: "recent", medium: "painting",    title: "Bus",                       details: "", size: "", year: "", w: 1920, h: 1428, tone: "#827F73" }, // working title
+  { file: "screentime",         collection: "recent", medium: "painting",    title: "Dawn on a New Horizon",     details: "Oil paint on wood panel", size: '16x16"', year: "", w: 1920, h: 1912, tone: "#6C5F40" },
+  { file: "bus",                collection: "recent", medium: "painting",    title: "Stop Requested",            details: "Oil paint on canvas", size: '30x40"', year: "2025", w: 1920, h: 1428, tone: "#827F73" },
   { file: "anxiety",            collection: "recent", medium: "painting",    title: "Breathe",                   details: "Oil paint on canvas",           size: '12x12"', year: "", w: 1920, h: 1920, tone: "#966A51" },
   // ---- Past Work (BFA years and before) ----
   { file: "past-oldlady",       collection: "past",   medium: "drawing",     title: "Portrait of Sultana",       details: "Ink, gouache, black and white charcoal on kraft Stonehenge paper", size: '13x18"', year: "", w: 1404, h: 1920, tone: "#716B62" },
@@ -69,8 +68,10 @@ window.WORKS = [
   { file: "past-paper",         collection: "past",   medium: "drawing",     title: "Crumple",                   details: "Colored pencils on white paper",                                   size: '22x30"', year: "", w: 1920, h: 1373, tone: "#8A8276" },
   { file: "past-leehall",       collection: "past",   medium: "drawing",     title: "Lee Hall",                  details: "Chalk pastel on black paper",                                      size: '12x14"', year: "", w: 1920, h: 1499, tone: "#877F71" },
   { file: "past-yaya",          collection: "past",   medium: "drawing",     title: "Yaya",                      details: "Colored pencils on white BFK Reeves paper",                        size: '14x17"', year: "", w: 1920, h: 1541, tone: "#A4A580" },
-  { file: "past-miscellaneous", collection: "past",   medium: "drawing",     title: "Still Life with Cow Skull", details: "", size: "", year: "", w: 1839, h: 1374, tone: "#837661" }, // working title
-  { file: "past-seashells",     collection: "past",   medium: "drawing",     title: "Seashells",                 details: "", size: "", year: "", w: 1783, h: 1920, tone: "#C7C2BB" }, // working title
+  { file: "past-miscellaneous", collection: "past",   medium: "drawing",     title: "Still Life with Cow Skull", details: "Chalk pastel on black paper", size: '22x30"', year: "", w: 1839, h: 1374, tone: "#837661" },
+  { file: "past-seashells",     collection: "past",   medium: "drawing",     title: "Untitled",                  details: "Ink on paper", size: '15x18"', year: "", w: 1783, h: 1920, tone: "#C7C2BB" },
+  { file: "past-cow",           collection: "past",   medium: "drawing",     title: "Mississippi Cattle",        details: "Ink and conte crayon on white paper",                      size: '22x30"', year: "", w: 1920, h: 1422, tone: "#5C5C60" },
+  { file: "past-mirrored",      collection: "past",   medium: "drawing",     title: "Mirrored",                  details: "Ink, gouache, black and white charcoal on kraft paper", size: '22x30"', year: "", w: 468, h: 640, tone: "#847168" }, // low-resolution photo (468 x 640)
 ];
 
 window.BIO = [
