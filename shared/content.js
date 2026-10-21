@@ -45,7 +45,7 @@ window.MEDIA = [
 // tone = average color of the image (used as a soft placeholder while loading)
 window.WORKS = [
   // ---- Recent Work ----
-  { file: "blue",               collection: "recent", medium: "painting",    title: "Blue Girl",                 details: "", size: "", year: "", w: 1553, h: 1920, tone: "#7C858E" }, // working title
+  { file: "blue",               collection: "recent", medium: "painting",    title: "Inner Immersion",           details: "Oil paint and cyanotype on canvas", size: '18x24"', year: "2026", w: 1553, h: 1920, tone: "#7C858E" },
   { file: "clothstrips",        collection: "recent", medium: "painting",    title: "What Peeks",                details: "", size: "", year: "", w: 1440, h: 1920, tone: "#B6B3A9" }, // working title
   { file: "ripples",            collection: "recent", medium: "painting",    title: "Moments of Impact",         details: "", size: "", year: "", w: 1466, h: 1920, tone: "#9E897C" }, // working title
   { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flashbacks",                details: "", size: "", year: "", w: 1406, h: 1920, tone: "#958366" }, // working title (Yaya drawing made of many photos)
