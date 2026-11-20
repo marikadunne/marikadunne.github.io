@@ -11,8 +11,8 @@ window.SITE = {
   location: "Oxford, Mississippi",
   email: "mikadunne98@gmail.com",
   instagram: "marikadunneart", // handle without the @; leave empty to hide everywhere
-  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119221823", // ?v= changes on every publish (publish.sh)
-  imageVersion: "2",                     // raise by 1 whenever existing art images are re-made, so browsers fetch the new copies
+  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119222400", // ?v= changes on every publish (publish.sh)
+  imageVersion: "3",                     // raise by 1 whenever existing art images are re-made, so browsers fetch the new copies
   featured: "blankcanvas",                // piece shown large on the opening screen
   headshot: "images/marika-headshot.jpg", // black & white portrait, 1000 x 1488
   logo: "images/logo-ink.png",            // round seal, dark ink on transparent
@@ -48,7 +48,7 @@ window.WORKS = [
   { file: "blue",               collection: "recent", medium: "painting",    title: "Inner Immersion",           details: "Oil paint and cyanotype on canvas", size: '18x24"', year: "2026", w: 1553, h: 1920, tone: "#7A8590" },
   { file: "clothstrips",        collection: "recent", medium: "painting",    title: "What Peeks Through",        details: "Oil paint and cyanotype on canvas", size: '13x24"', year: "", w: 1440, h: 1920, tone: "#B8B4A7" },
   { file: "ripples",            collection: "recent", medium: "painting",    title: "Ripples of Impact",         details: "Oil paint on canvas", size: '11x14"', year: "", w: 1466, h: 1920, tone: "#A18879" },
-  { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flashes of You",            details: "Black Pan Pastel on kraft paper", size: '22x30"', year: "2025", w: 1406, h: 1920, tone: "#9A8461" },
+  { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flickers of You",            details: "Black Pan Pastel on kraft paper", size: '22x30"', year: "", w: 1406, h: 1920, tone: "#9A8461" },
   { file: "house",              collection: "recent", medium: "painting",    title: "Faulkner\u2019s Farm",       details: "Oil paint on canvas",           size: '5x7"',   year: "", w: 1920, h: 1364, tone: "#A29B80" },
   { file: "blankcanvas",        collection: "recent", medium: "painting",    title: "Blank Spaces",              details: "Oil paint on wood panel",       size: '20x20"', year: "", w: 1884, h: 1920, tone: "#828383" },
   { file: "water",              collection: "recent", medium: "printmaking", title: "Untitled II",               details: "Stone Lithography",             size: '11x14"', year: "", w: 1518, h: 1920, tone: "#C4C3BF" },
@@ -58,7 +58,7 @@ window.WORKS = [
   { file: "phonecall",          collection: "recent", medium: "painting",    title: "Esca",                      details: "Oil paint on canvas",           size: '18x24"', year: "", w: 1920, h: 1432, tone: "#5A503D" },
   { file: "phoneaddiction",     collection: "recent", medium: "painting",    title: "Daughter of Eve",           details: "Oil paint on canvas",           size: '18x24"', year: "", w: 1443, h: 1920, tone: "#988979" },
   { file: "screentime",         collection: "recent", medium: "painting",    title: "Dawn on a New Horizon",     details: "Oil paint on wood panel", size: '16x16"', year: "", w: 1920, h: 1912, tone: "#70603C" },
-  { file: "bus",                collection: "recent", medium: "painting",    title: "Stop Requested",            details: "Oil paint on canvas", size: '30x40"', year: "2025", w: 1920, h: 1428, tone: "#848072" },
+  { file: "bus",                collection: "recent", medium: "painting",    title: "Stop Requested",            details: "Oil paint on canvas", size: '30x40"', year: "", w: 1920, h: 1428, tone: "#848072" },
   { file: "anxiety",            collection: "recent", medium: "painting",    title: "Breathe",                   details: "Oil paint on canvas",           size: '12x12"', year: "", w: 1920, h: 1920, tone: "#9D684B" },
   // ---- Past Work (BFA years and before) ----
   { file: "past-oldlady",       collection: "past",   medium: "drawing",     title: "Portrait of Sultana",       details: "Ink, gouache, black and white charcoal on kraft Stonehenge paper", size: '13x18"', year: "", w: 1404, h: 1920, tone: "#726B60" },
@@ -151,7 +151,7 @@ window.CV = [
     ["", "Oktibbeha County Alumni Scholarship", ""],
   ]],
   ["Teaching & Professional Experience", [
-    ["2027", "Instructor of Record, Art 3210: Beginning Painting", "University of Mississippi, Oxford, MS"],
+    ["2027", "Instructor of Record, Art 321: Beginning Painting", "University of Mississippi, Oxford, MS"],
     ["2026", "Gallery Coordinator and Curator", "University of Mississippi, Oxford, MS"],
     ["", "Painting Workshop Designer and Lecturer", "University of Mississippi"],
     ["", "Printmaking Workshop Designer and Lecturer", "University of Mississippi"],
