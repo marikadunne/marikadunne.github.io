@@ -11,7 +11,7 @@ window.SITE = {
   location: "Oxford, Mississippi",
   email: "mikadunne98@gmail.com",
   instagram: "marikadunneart", // handle without the @; leave empty to hide everywhere
-  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119222400", // ?v= changes on every publish (publish.sh)
+  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119222721", // ?v= changes on every publish (publish.sh)
   imageVersion: "3",                     // raise by 1 whenever existing art images are re-made, so browsers fetch the new copies
   featured: "blankcanvas",                // piece shown large on the opening screen
   headshot: "images/marika-headshot.jpg", // black & white portrait, 1000 x 1488
@@ -45,7 +45,7 @@ window.MEDIA = [
 // tone = average color of the image (used as a soft placeholder while loading)
 window.WORKS = [
   // ---- Recent Work ----
-  { file: "blue",               collection: "recent", medium: "painting",    title: "Inner Immersion",           details: "Oil paint and cyanotype on canvas", size: '18x24"', year: "2026", w: 1553, h: 1920, tone: "#7A8590" },
+  { file: "blue",               collection: "recent", medium: "painting",    title: "Inner Immersion",           details: "Oil paint and cyanotype on canvas", size: '18x24"', year: "", w: 1553, h: 1920, tone: "#7A8590" },
   { file: "clothstrips",        collection: "recent", medium: "painting",    title: "What Peeks Through",        details: "Oil paint and cyanotype on canvas", size: '13x24"', year: "", w: 1440, h: 1920, tone: "#B8B4A7" },
   { file: "ripples",            collection: "recent", medium: "painting",    title: "Ripples of Impact",         details: "Oil paint on canvas", size: '11x14"', year: "", w: 1466, h: 1920, tone: "#A18879" },
   { file: "flashbacks",         collection: "recent", medium: "drawing",     title: "Flickers of You",            details: "Black Pan Pastel on kraft paper", size: '22x30"', year: "", w: 1406, h: 1920, tone: "#9A8461" },
@@ -60,6 +60,8 @@ window.WORKS = [
   { file: "screentime",         collection: "recent", medium: "painting",    title: "Dawn on a New Horizon",     details: "Oil paint on wood panel", size: '16x16"', year: "", w: 1920, h: 1912, tone: "#70603C" },
   { file: "bus",                collection: "recent", medium: "painting",    title: "Stop Requested",            details: "Oil paint on canvas", size: '30x40"', year: "", w: 1920, h: 1428, tone: "#848072" },
   { file: "anxiety",            collection: "recent", medium: "painting",    title: "Breathe",                   details: "Oil paint on canvas",           size: '12x12"', year: "", w: 1920, h: 1920, tone: "#9D684B" },
+  { file: "whatmakesaman",      collection: "recent", medium: "painting",    title: "What Makes a Man",          details: "Oil paint on canvas",           size: '24x36"', year: "", w: 1513, h: 1920, tone: "#5B765A" },
+  { file: "reflections",        collection: "recent", medium: "painting",    title: "Reflections",               details: "Oil paint on canvas",           size: '12x12"', year: "", w: 1475, h: 1500, tone: "#40709A" },
   // ---- Past Work (BFA years and before) ----
   { file: "past-oldlady",       collection: "past",   medium: "drawing",     title: "Portrait of Sultana",       details: "Ink, gouache, black and white charcoal on kraft Stonehenge paper", size: '13x18"', year: "", w: 1404, h: 1920, tone: "#726B60" },
   { file: "past-bucket",        collection: "past",   medium: "drawing",     title: "Pickled Gold",              details: "Ink, gouache, black and white charcoal on kraft Stonehenge paper", size: '16x22"', year: "", w: 1361, h: 1920, tone: "#746C5F" },
