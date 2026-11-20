@@ -11,7 +11,7 @@ window.SITE = {
   location: "Oxford, Mississippi",
   email: "mikadunne98@gmail.com",
   instagram: "marikadunneart", // handle without the @; leave empty to hide everywhere
-  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119222721", // ?v= changes on every publish (publish.sh)
+  cvPdf: "shared/marika-dunne-cv.pdf?v=20261120094340", // ?v= changes on every publish (publish.sh)
   imageVersion: "3",                     // raise by 1 whenever existing art images are re-made, so browsers fetch the new copies
   featured: "blankcanvas",                // piece shown large on the opening screen
   headshot: "images/marika-headshot.jpg", // black & white portrait, 1000 x 1488
@@ -79,14 +79,14 @@ window.WORKS = [
 
 window.BIO = [
   "Marika Dunne is a Mississippi artist who investigates grief, memory, and connection amid social and technological change, drawing from personal experience and family history to consider how individuals navigate time, distance, and shifting cultural realities.",
-  "Born in Williamsburg, Virginia, she earned a Bachelor of Fine Arts from Mississippi State University. Her work utilizes painting, drawing, printmaking, and photography to examine tensions between presence and absence, clarity and obscurity, and the distances that form between people, memory, and place.",
-  "She is currently in her second year of graduate study at the University of Mississippi, where she will earn her Master of Fine Arts in 2027 with a concentration in oil painting. Her artwork is influenced by her Greek American heritage and the Southern landscapes that shaped her upbringing. Her award-winning artwork has been featured in local and national exhibitions, including multiple juried art shows and the United States Capitol Building in Washington, D.C.",
+  "Born in Williamsburg, Virginia, she earned a Bachelor of Fine Arts from Mississippi State University. Working across painting, drawing, printmaking, and photography, she builds layered images that explore the distances that form between people, memory, and place. Her work is influenced by her Greek American heritage and the Southern landscapes that shaped her upbringing.",
+  "She is currently in her third year of graduate study at the University of Mississippi, where she will earn her Master of Fine Arts in 2027 with a concentration in oil painting. Her award-winning artwork has been featured in local and national exhibitions, including multiple juried art shows and the United States Capitol Building in Washington, D.C.",
 ];
 
 window.STATEMENT = [
   "I am interested in how time transforms what we hold dear, eroding clarity and leaving behind impressions rather than complete images.",
-  "My work visualizes this tension between permanence and impermanence, presence and absence, and clarity and obscurity through layered processes in painting. Among the current motifs I have focused on, water has become a significant element as a means of working through the concepts of time, death, distance, and memory. Other symbols in my work also echo these ideas. Scenes from memories, fragments of dreams and organic forms appear repeatedly, acting as markers of what remains and what fades.",
-  "My paintings and prints are an attempt to give form to intangible experiences: the ebb and flow of grief, the slow dissolution of memory, and the search for continuity amid change. Through the blending of imagery and form, I aim to create spaces where viewers can sense both the weight of loss and the quiet persistence of connection, even as time moves forward and the markers of the past sink into shadow. Each piece becomes a meditation on what we hold onto and what slips away, inviting viewers to consider their own relationships with time, memory, and personal and cultural identity.",
+  "My work visualizes this tension between permanence and impermanence, presence and absence, and clarity and obscurity through layered processes in painting, drawing, photography, and printmaking. Among the current motifs I have focused on, water has become a significant element as a means of working through the concepts of time, death, distance, and memory. Other symbols in my work also echo these ideas. Fragmented scenes from old photographs and organic forms appear repeatedly, acting as markers of what remains and what fades.",
+  "My paintings and prints are an attempt to give form to intangible experiences such as the ebb and flow of grief, the slow dissolution of memory, and the search for continuity and connection amid change. Through the blending of imagery and form, I aim to create spaces where viewers can sense both the weight of loss and the quiet persistence of connection, even as time moves forward and the markers of the past sink into shadow. Each piece becomes a meditation on what we hold onto and what slips away, inviting viewers to consider their own relationships with time, memory, and personal and cultural identity.",
 ];
 
 // CV — same content as cv/marika-dunne-cv.tex
