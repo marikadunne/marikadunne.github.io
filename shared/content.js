@@ -11,7 +11,7 @@ window.SITE = {
   location: "Oxford, Mississippi",
   email: "mikadunne98@gmail.com",
   instagram: "marikadunneart", // handle without the @; leave empty to hide everywhere
-  cvPdf: "shared/marika-dunne-cv.pdf?v=20261020215934", // ?v= changes on every publish (publish.sh)
+  cvPdf: "shared/marika-dunne-cv.pdf?v=20261119221823", // ?v= changes on every publish (publish.sh)
   imageVersion: "2",                     // raise by 1 whenever existing art images are re-made, so browsers fetch the new copies
   featured: "blankcanvas",                // piece shown large on the opening screen
   headshot: "images/marika-headshot.jpg", // black & white portrait, 1000 x 1488
@@ -91,16 +91,20 @@ window.STATEMENT = [
 // Each entry: [year, title, details, juried?]  (year "" = same year as above)
 window.CV = [
   ["Education", [
-    ["2027", "MFA Candidate, Painting", "University of Mississippi, Oxford, MS"],
+    ["2027", "MFA, Painting", "University of Mississippi, Oxford, MS (expected May 2027)"],
     ["2022", "BFA, Drawing, Summa Cum Laude", "Mississippi State University, Starkville, MS"],
+    ["", "Minor in Psychology", ""],
+    ["", "Collegium Honorum", "Shackouls Honors College"],
   ]],
   ["Selected Exhibitions", [
     ["2026", "Black and White 2026", "Fusion International Art Gallery", true],
+    ["", "Featured Artist, 101 Art Book: Faces Edition", "Arts to Hearts Project", true],
     ["", "16th Annual Figurative Art Exhibition", "Light Space & Time Gallery", true],
     ["", "Red", "Colors of Humanity Art Gallery", true],
     ["", "Human Nature", "Colors of Humanity Art Gallery", true],
     ["", "Yellow", "Colors of Humanity Art Gallery", true],
     ["", "Student Summer Exhibition", "University of Mississippi, Oxford, MS", true],
+    ["", "Creative Practice: A Look Inside the MFA Studio Graduate Exhibition", "University of Mississippi, Oxford, MS"],
     ["", "Ecdysis Graduate Art Exhibition", "University of Mississippi, Oxford, MS"],
     ["", "24 Hours of Wonder", "University of Mississippi Museum, Oxford, MS"],
     ["", "One Night Stand", "Ole Miss Motel, Oxford, MS"],
@@ -109,15 +113,18 @@ window.CV = [
     ["", "Plein Air Art Exhibition", "Southside Gallery, Oxford, MS"],
     ["2024", "TEDx: Purpose and Potential Exhibit", "Ford Center for the Performing Arts, Oxford, MS"],
     ["2021", "49th Mississippi State Student Juried Exhibition", "Visual Arts Center, Mississippi State University, Starkville, MS"],
-    ["", "MS Arts Farmer’s Market Exhibition", "Mississippi State University, Starkville, MS", true],
+    ["", "MS Arts Farmer\u2019s Market Exhibition", "Mississippi State University, Starkville, MS", true],
     ["2020", "Mississippi Collegiate Art Competition", "Summer Hall Art Gallery, The W, Columbus, MS", true],
     ["2019", "48th Mississippi State Student Juried Exhibition", "Mississippi State University, Starkville, MS"],
     ["", "Exploring the Farm and Livestock", "Cullis Wade Depot Art Gallery, Starkville, MS", true],
     ["2018", "47th Mississippi State Student Juried Exhibition", "Mississippi State University, Starkville, MS"],
   ]],
   ["Arts Festivals & Conferences", [
-    ["2026", "Participant, Annual Ole Miss Iron Pour", "Oxford, MS"],
+    ["2026", "Interwoven Conference", "SECAC, Winston-Salem, NC"],
+    ["", "Annual Ole Miss Iron Pour", "University of Mississippi, Oxford, MS"],
+    ["", "Steamroller Printing Event, PrintFest! Family Activity Day", "University of Mississippi Museum, Oxford, MS"],
     ["2025", "Double Decker Arts Festival", "Oxford Arts Council, Oxford, MS"],
+    ["", "Flux Flow Conference", "SECAC, Cincinnati, OH"],
     ["2023", "Holiday Festival", "Starkville Area Arts Council, Starkville, MS"],
     ["", "Cotton District Arts Festival", "Starkville Area Arts Council, Starkville, MS"],
     ["2022", "MS Clayworks Clay Conference", "Meridian Community College, Meridian, MS"],
@@ -125,10 +132,13 @@ window.CV = [
     ["2021", "Cotton District Arts Festival", "Starkville Area Arts Council, Starkville, MS", true],
   ]],
   ["Talks & Presentations", [
-    ["2026", "Artist Talk Presenter", "Ecdysis Graduate Art Talk Session, University of Mississippi"],
+    ["2026", "Presenter, Interwoven Conference", "SECAC, Winston-Salem, NC"],
+    ["", "Guest Speaker", "Drawing South Podcast"],
+    ["", "Creative Research Presenter", "College of Liberal Arts Research and Creative Showcase student competition"],
+    ["", "Artist Talk Presenter", "Ecdysis Graduate Art Talk Session, University of Mississippi"],
     ["", "Research Podium Presenter", "Graduate Student Council Research & Creative Achievement Symposium"],
     ["", "Creative Research Presenter", "Graduate Student Council Research & Creative Achievement Symposium"],
-    ["2025", "Presenter, Flux Flow Conference", "SECAC, Cincinnati, OH"],
+    ["2025", "Presenter, \u201cWalter Anderson\u2019s Art as Therapy: Creativity, Isolation, and Mental Health\u201d", "Flux Flow Conference, SECAC, Cincinnati, OH"],
     ["", "Visiting Artist", "Octopus Questions Podcast"],
   ]],
   ["Awards, Grants & Fellowships", [
@@ -137,25 +147,24 @@ window.CV = [
     ["2020", "Bill and Nelle D. Elam Scholarship", "Mississippi State University, Starkville, MS"],
     ["2019", "Del Rendon Scholarship", "Mississippi State University, Starkville, MS"],
     ["2017", "Overall Winner, National Congressional Art Competition, for Southern Silver", "Congressional Institute, Washington, D.C."],
-    ["", "Best in Show, Buzzy’s Art Competition", "Starkville Area Arts Council, Starkville, MS"],
+    ["", "Best in Show, Buzzy\u2019s Art Competition", "Starkville Area Arts Council, Starkville, MS"],
     ["", "Oktibbeha County Alumni Scholarship", ""],
   ]],
   ["Teaching & Professional Experience", [
-    ["2027", "Graduate Teacher", "University of Mississippi, Oxford, MS"],
-    ["2026", "Gallery Coordinator", "University of Mississippi, Oxford, MS"],
-    ["", "Curator", ""],
-    ["", "Painting Workshop Designer and Lecturer", ""],
-    ["", "Printmaking Workshop Designer and Lecturer", ""],
-    ["2024–26", "Graduate Teaching Assistant", "University of Mississippi, Oxford, MS"],
+    ["2027", "Instructor of Record, Art 3210: Beginning Painting", "University of Mississippi, Oxford, MS"],
+    ["2026", "Gallery Coordinator and Curator", "University of Mississippi, Oxford, MS"],
+    ["", "Painting Workshop Designer and Lecturer", "University of Mississippi"],
+    ["", "Printmaking Workshop Designer and Lecturer", "University of Mississippi"],
+    ["2024\u201326", "Graduate Teaching Assistant, Art 321: Beginning Painting and Art 322: Intermediate Painting", "University of Mississippi, Oxford, MS"],
     ["2021, 2023", "Art Tutor, Private Lessons", "Starkville, MS"],
-    ["2019–20", "Art Director and Counselor, SSD Spark Art Summer Camp", "Starkville Consolidated School District, Starkville, MS"],
-    ["2017–26", "Freelance Artist", ""],
+    ["2019\u201320", "Art Director and Counselor, SSD Spark Art Summer Camp", "Starkville Consolidated School District, Starkville, MS"],
+    ["2017\u201326", "Freelance Artist", ""],
   ]],
   ["Service", [
     ["2026", "Jury Committee Member, Yokna Sculpture Trail", "Oxford, MS"],
   ]],
   ["Commissions & Sales", [
     ["2025", "Plein Air Painting Sales, Plein Air Art Exhibition", "Southside Gallery, Oxford, MS"],
-    ["2020–22", "Provost Holiday Card Commission", "Office of the Provost, Mississippi State University, Starkville, MS"],
+    ["2020\u201322", "Provost Holiday Card Commission", "Office of the Provost, Mississippi State University, Starkville, MS"],
   ]],
 ];
